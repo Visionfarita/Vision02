@@ -1,0 +1,27 @@
+#carnets {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+    box-shadow: 0px 2px 2px rgb(170, 81, 54);
+}
+#carnets h3 {
+    box-shadow: 0px 2px 2px rgb(170, 81, 54);
+}
+#carnets .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0px 2px 2px rgb(170, 81, 54);
+}
+.carne01 {  
+    margin: 20px;
+}
+.carne01 img {
+   /* width: 180px;
+    height: 180px;*/
+
+    width: 300px;
+    height: auto;
+ }

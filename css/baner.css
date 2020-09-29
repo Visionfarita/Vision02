@@ -1,0 +1,74 @@
+#baner {
+    margin-top: 50px;  
+   position: relative; 
+   padding-top: 30px ;
+   padding-bottom: 70px;
+}
+#baner img {
+    width: 100%;
+    height: auto;
+    margin-left: 100px;
+    box-shadow: 10px 10px 10px 10px rgb(170, 81, 54);
+  
+    
+}
+#baner .contenedor {
+    position: absolute;
+    top: 60%;
+    color: #fff;
+    text-align: center;
+}
+#baner .contenedor p {
+    font-size: 22px;
+   color: #fff; 
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+ }
+.tel01 {
+    color:white;
+     text-align: right;
+    font-weight: bold;
+    padding-right: 100px;
+}
+.main-header__contactinfo {
+   
+    position: absolute;  
+    top: 90px;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    height: 0;
+    color: black;
+    font-weight: bold;
+    padding-right: 100px;
+ }
+ 
+@media(min-width: 480px) {
+    #baner h2{
+        font-size: 40px;
+    }
+    #baner a{
+        margin-top: 25px;
+    }
+ }
+
+/*
+@media(min-width:768px) {
+    #baner {
+    height: 300px;
+    overflow: hidden;}
+
+   #baner img {
+        height: auto;
+        margin-top: -100px;
+    }
+}
+/*
+@media(min-width:1024px){
+    #baner img{
+        margin-top: -200px;
+    }
+}*/

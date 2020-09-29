@@ -1,0 +1,9 @@
+.contact-information {
+    padding: 10px;
+    padding-top: 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #DE423A;
+    }
+    .contact-information .column__title {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }

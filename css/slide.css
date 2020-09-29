@@ -1,0 +1,98 @@
+/*slider1*/
+
+#blog .contenedor {
+    margin-top: 35px;
+}
+#blog .contenedor #slider1  {
+    width: 400px;
+    height: 300px;
+    float:left;
+    overflow: hidden; 
+    margin-right: 25px;
+    box-shadow: 2px 2px 2px 2px rgb(229, 134, 174);
+}
+
+#blog .contenedor #slider1 ul {
+    display: flex;
+     width: 400%;
+
+    animation: cambio 20s infinite alternate;
+}
+#blog .contenedor #slider1 ul li  img {
+    width: 100%; }
+
+@keyframes cambio {
+        0% {margin-left: 0;}
+        20% {margin-left: 0;}
+    
+        25% {margin-left: -100%;}
+        45% {margin-left: -100%;}
+    
+        50% {margin-left: -200%;}
+        70% {margin-left: -200%;}
+    
+        75% {margin-left: -300%;}
+        100% {margin-left: -300%;}
+} 
+/*slider2*/
+#blog .contenedor #slider2  {
+    width: 400px;
+    height: 300px;
+    float:left;
+    overflow: hidden; 
+    margin-right: 25px;
+    box-shadow: 2px 2px 2px 2px rgb(229, 134, 174);
+}
+
+#blog .contenedor #slider2 ul {
+    display: flex;
+     width: 400%;
+
+    animation: cambio 20s infinite alternate;
+}
+#blog .contenedor #slider2 ul li  img {
+    width: 100%; }
+@keyframes cambio {
+        0% {margin-left: 0;}
+        20% {margin-left: 0;}
+    
+        25% {margin-left: -100%;}
+        45% {margin-left: -100%;}
+    
+        50% {margin-left: -200%;}
+        70% {margin-left: -200%;}
+    
+        75% {margin-left: -300%;}
+        100% {margin-left: -300%;}
+} 
+ /*slider3*/
+#blog .contenedor #slider3  {
+    width: 400px;
+    height: 300px;
+    float:left;
+    overflow: hidden; 
+    box-shadow: 2px 2px 2px 2px rgb(229, 134, 174);
+}
+
+#blog .contenedor #slider3 ul {
+    display: flex;
+     width: 400%;
+
+    animation: cambio 20s infinite alternate;
+}
+#blog .contenedor #slider3 ul li  img {
+    width: 100%; }
+@keyframes cambio {
+        0% {margin-left: 0;}
+        20% {margin-left: 0;}
+    
+        25% {margin-left: -100%;}
+        45% {margin-left: -100%;}
+    
+        50% {margin-left: -200%;}
+        70% {margin-left: -200%;}
+    
+        75% {margin-left: -300%;}
+        100% {margin-left: -300%;}
+} 
+  
